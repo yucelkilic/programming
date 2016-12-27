@@ -1,4 +1,4 @@
-// Kaynak: http://arduinotik.blogspot.com.tr/2014/03/arduino-7-segmentli-gosterge-0-9-sayc.html?view=sidebar#!
+// Kaynak: http://arduinotik.blogspot.com.tr/2014/03/arduino-7-segmentli-gosterge-0-9-sayc.html
 int buton=12;
 
 int a=2; // her pine displaydeki bir led bağlı
