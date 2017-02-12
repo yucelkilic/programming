@@ -17,7 +17,6 @@ This code is open to all public use under GPLv3: https://www.gnu.org/licenses/gp
 Reference: http://www.martyncurrey.com/connecting-2-arduinos-by-bluetooth-using-a-hc-05-and-a-hc-06-pair-bind-and-link/
 */
 
-
 #include <SoftwareSerial.h>
 SoftwareSerial BTSerial(2, 3);
 // Connect the HC-05 TX to Arduino pin 2 RX.
@@ -43,7 +42,6 @@ void setup()
 
 void loop()
 {
-
      // Keep reading from HC-05 and send to Arduino Serial Monitor
     if (BTSerial.available())
     {
